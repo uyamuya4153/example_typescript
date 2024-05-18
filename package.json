@@ -1,7 +1,0 @@
-{
-  "name": "example_typescript",
-  "packageManager": "yarn@4.0.2",
-  "dependencies": {
-    "uuid": "9.0.1"
-  }
-}
