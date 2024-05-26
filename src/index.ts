@@ -5,7 +5,9 @@ interface ParticipantNumbers {
   childCount: number;
 }
 
-function extractParticipantNumbers(filePath: string): ParticipantNumbers {
+export function extractParticipantNumbers(
+  filePath: string
+): ParticipantNumbers {
   // Load the Excel file
   const workbook = xlsx.readFile(filePath);
   const sheetName = workbook.SheetNames[0]; // Assuming the data is in the first sheet
