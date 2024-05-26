@@ -46,3 +46,4 @@ const filePath = './パークゴルフ場利用申請書_中島体育部.xlsx';
 const { adultCount, childCount } = extractParticipantNumbers(filePath);
 console.log(`大人の参加人数: ${adultCount}人`);
 console.log(`子供の参加人数: ${childCount}人`);
+console.log(`合計の参加人数: ${adultCount + childCount}人`);
